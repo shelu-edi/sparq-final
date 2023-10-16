@@ -1,4 +1,4 @@
-import { Footer, Navbar } from "../components";
+import { Footer, Navbar } from '../components';
 import {
   About,
   Explore,
@@ -8,7 +8,7 @@ import {
   Insights,
   WhatsNew,
   World,
-} from "../sections";
+} from '../sections';
 
 const Page = () => (
   <div className="overflow-hidden bg-primary-black">
@@ -30,7 +30,6 @@ const Page = () => (
       <div className="z-0 gradient-03" />
       <Feedback />
     </div>
-
     <Footer />
   </div>
 );
