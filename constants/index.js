@@ -2,27 +2,27 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: "/planet-01.png",
-    title: "The Hogwarts",
+    title: "Sri Lankan Gemstones",
   },
   {
     id: "world-2",
     imgUrl: "/planet-02.png",
-    title: "The Upside Down",
+    title: "Hand Made Jewelry Manufacturing",
   },
   {
     id: "world-3",
     imgUrl: "/planet-03.png",
-    title: "Kadirojo Permai",
+    title: "Unique Custom Designing",
   },
   {
     id: "world-4",
     imgUrl: "/planet-04.png",
-    title: "Paradise Island",
+    title: "Jewelry Plating",
   },
   {
     id: "world-5",
     imgUrl: "/planet-05.png",
-    title: "Hawkins Labs",
+    title: "Repair and Restoration",
   },
 ];
 
@@ -38,15 +38,15 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: "/vrpano.svg",
-    title: "A new world",
+    title: "Natural Gemstones",
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      "Timeless Elegance: Where Beauty Meets Craftsmanship, One Stone at a Time",
   },
   {
     imgUrl: "/headset.svg",
-    title: "More realistic",
+    title: "Exclusive Jewelry",
     subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      "Crafting Moments of Beauty, One Unique Design at a Time, Shining Your Story",
   },
 ];
 
@@ -74,18 +74,22 @@ export const insights = [
 export const socials = [
   {
     name: "twitter",
-    url: "/twitter.svg",
+    url: "https://twitter.com/",
+    logo: "/twitter.svg",
   },
   {
     name: "linkedin",
-    url: "/linkedin.svg",
+    url: "https://www.linkedin.com/in/jewel-iconic",
+    logo: "/linkedin.svg",
   },
   {
     name: "instagram",
-    url: "/instagram.svg",
+    url: "https://www.instagram.com/",
+    logo: "/instagram.svg",
   },
   {
     name: "facebook",
-    url: "/facebook.svg",
+    url: "https://www.facebook.com/",
+    logo: "/facebook.svg",
   },
 ];
