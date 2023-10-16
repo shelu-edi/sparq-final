@@ -26,7 +26,7 @@ const Navbar = () => (
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       /> */}
-      <p className="font-normal text-[24px] leading-[30px] text-white">
+      <p className="font-normal text-[16px] sm:text-[24px] leading-[30px] text-white">
         ask.jeweliconic@gmail.com
       </p>
     </div>
