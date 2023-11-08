@@ -14,7 +14,7 @@ const Navbar = () => (
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img
-        src="/jilogo.png"
+        src="/s-logo.png"
         alt="search"
         className="w-[75px] h-[75px] object-contain"
       />

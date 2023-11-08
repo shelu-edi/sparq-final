@@ -14,12 +14,12 @@ const World = () => (
       viewport={{ once: 'false', amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex  flex-col `}
     >
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Spark with SparQ" textStyles="text-center" />
       <TitleText
         title={
           <>
-            Track friends around you and invite them to play together in the
-            same world
+            Reach. Relax & Xperience the Different Digital<br/>
+            Xplore Solutions to Xpand Globally 
           </>
         }
         textStyles="text-center"
@@ -30,13 +30,13 @@ const World = () => (
       >
         <img src="/map.png" alt="map" className="object-cover w-full h-full" />
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="/people-01.png" alt="people" className="w-full h-full" />
+          <img src="/letter-s.png" alt="people" className="w-full h-full" />
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="/people-02.png" alt="people" className="w-full h-full" />
+          <img src="/letter-s.png" alt="people" className="w-full h-full" />
         </div>
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="/people-03.png" alt="people" className="w-full h-full" />
+          <img src="/letter-s.png" alt="people" className="w-full h-full" />
         </div>
 
         {/* <div className="absolute top-20 left-[65%] w-[150px] h-[150px] p-[6px] rounded">

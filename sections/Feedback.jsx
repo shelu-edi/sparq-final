@@ -18,18 +18,19 @@ const Feedback = () => (
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
       >
         <div className="feedback-gradient" />
-        <div className="">
+        {/* <div className="">
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
-            M F A
+            Waseem Khan
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
-            Founder | Jewel Iconic
+            Founder | SparQ
           </p>
-        </div>
+        </div> */}
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-          Crafting exquisite jewelry pieces, we are your exclusive source for
-          timeless elegance and unique designs. As a dedicated manufacturer and
-          seller, we turn precious materials into cherished works of art.
+          SparQ's mission is to evolve alongside challenges, creating Solutional Pillars to propel customers from reImagination to reality through 
+          tech fusion. 
+          <br />
+          We transition from ideation to pre-packaged solutions, meticulously designing to unveil opportunities.
         </p>
       </motion.div>
       <motion.div
@@ -37,8 +38,8 @@ const Feedback = () => (
         className="relative flex items-center justify-center flex-1"
       >
         <img
-          src="/planet-09.png"
-          alt="planet-09"
+          src="/feedback.jpg"
+          alt="feedback"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
         <motion.div
@@ -46,9 +47,9 @@ const Feedback = () => (
           className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
           <img
-            src="/jilogo.png"
+            src="/s-logo.png"
             alt="stamp"
-            className="w-[155px] h-[155px] object-contain border-[1px] border-white rounded-full p-2"
+            className="w-[180px] h-[180px] object-contain border-[1px] border-white rounded-full p-2"
           />
         </motion.div>
       </motion.div>

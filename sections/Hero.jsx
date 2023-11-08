@@ -2,20 +2,20 @@
 
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className={`${styles.yPaddings} sm:pl-16 pl-6`} style={{height:'40vw', paddingTop:'8rem'}}>
     <motion.dev
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex flex-row justify-center`}
     >
       <div className="relative z-10 flex flex-col items-center justify-center">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          JEWEL ICONIC
+          S
         </motion.h1>
         <motion.dev
           variants={textVariant(1.2)}
@@ -26,8 +26,51 @@ const Hero = () => (
           <h1 className={styles.heroHeading}>Ness</h1> */}
         </motion.dev>
       </div>
+      <div className="relative z-10 flex flex-col items-center justify-center">
+        <motion.h1 variants={textVariant(1.4)} className={styles.heroHeading}>
+          P
+        </motion.h1>
+        <motion.dev
+          variants={textVariant(1.2)}
+          className="flex flex-row items-center justify-center"
+        >
+        </motion.dev>
+      </div>
+      <div className="relative z-10 flex flex-col items-center justify-center">
+        <motion.h1 variants={textVariant(1.7)} className={styles.heroHeading}>
+          A
+        </motion.h1>
+        <motion.dev
+          variants={textVariant(1.2)}
+          className="flex flex-row items-center justify-center"
+        >
+        </motion.dev>
+      </div>
 
-      <motion.div
+<div className="relative z-10 flex flex-col items-center justify-center">
+        <motion.h1 variants={textVariant(2)} className={styles.heroHeading}>
+          R
+        </motion.h1>
+        <motion.dev
+          variants={textVariant(1.2)}
+          className="flex flex-row items-center justify-center"
+        >
+        </motion.dev>
+      </div>
+
+<div className="relative z-10 flex flex-col items-center justify-center">
+        <motion.h1 variants={textVariant(2.3)} className={styles.heroHeading}>
+          Q
+        </motion.h1>
+        <motion.dev
+          variants={textVariant(1.2)}
+          className="flex flex-row items-center justify-center"
+        >
+        </motion.dev>
+      </div>
+
+
+      {/* <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
@@ -46,9 +89,13 @@ const Hero = () => (
             />
           </div>
         </a>
-      </motion.div>
+      </motion.div> */}
     </motion.dev>
   </section>
-);
+
+
+
+  );
+
 
 export default Hero;

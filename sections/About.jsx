@@ -15,18 +15,36 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Jewel Iconic" textStyles="text-center" />
+      <TypingText title="|Beyond Imagination" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        Welcome to{' '}
-        <span className="font-extrabold text-white">Jewel Iconic</span>, where
-        elegance meets craftsmanship. As passionate jewelry manufacturers and
-        sellers, we craft exquisite pieces that capture life's moments with
-        precision and grace. Explore our collections to find the perfect symbol
-        of love, style, and individuality. Join us on a journey where tradition
-        and innovation blend seamlessly to create timeless treasures.
+        {/* Welcome to{' '} */}
+        <span className="font-extrabold text-white">SPARQ Corporate</span>,
+        energizes your next big build with our expertise team, 
+        {/* with directing, supporting and launching your MVP to the market. We are also expertise for 
+        building tech applications and evolving in the digital transformation. */}
+      </motion.p>
+      <motion.p
+        variants={fadeIn('up', 'tween', 0.2, 1.5)}
+        className="mt-[8px] font-normal sm:text-[30px] text-[20px] text-center text-secondary-white"
+      >
+        {/* Welcome to{' '} */}
+        {/* <span className="font-extrabold text-white">SPARQ Corporate</span>,
+        energizes your next big build with our expertise team,  */}
+        with directing, supporting and launching your MVP to the market. We are also expertise for 
+        {/* building tech applications and evolving in the digital transformation.  */}
+      </motion.p>
+      <motion.p
+        variants={fadeIn('up', 'tween', 0.2, 2)}
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+      >
+        {/* Welcome to{' '} */}
+        {/* <span className="font-extrabold text-white">SPARQ Corporate</span>,
+        energizes your next big build with our expertise team, 
+        with directing, supporting and launching your MVP to the market. We are also expertise for  */}
+        building tech applications and evolving in the digital transformation.. 
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
@@ -35,6 +53,7 @@ const About = () => (
         className="w-[18px] h-[28px] object-contain mt-[28px]"
       />
     </motion.div>
+    
   </section>
 );
 

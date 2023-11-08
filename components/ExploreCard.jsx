@@ -27,13 +27,13 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
-            src="/gemstone.svg"
+            src="/s-logo.png"
             alt="headset"
             className="object-contain w-1/2 h-1/2"
           />
         </div>
         <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
-          Enter the Jewel Iconic
+          Enter SparQ
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}

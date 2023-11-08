@@ -29,8 +29,11 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Jewel Iconic Works" />
-        <TitleText title={<>Get started with just a few clicks</>} />
+        <TypingText title="| Connect to resolve your Dots" />
+        <TitleText title={<>Start today to create a
+                            <span style={{ color: '#FF6600'}}> #</span>bettertech 
+                            <br/>for everyone.
+                          </>} />
         <div className="mt-[31px] flex flex-col mex-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps key={feature} number={index + 1} text={feature} />
